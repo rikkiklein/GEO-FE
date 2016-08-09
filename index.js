@@ -2,7 +2,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
   var lat;
   var long;
-  var url = 'http://localhost:3000';
+  // var url = 'http://localhost:3000';
+  var url = "https://calm-dusk-13510.herokuapp.com";
   var map;
   var service;
   var inputVal;
@@ -68,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function(){
   function hideAll(){
     allContainer.classList.add("hide");
     allContainer.classList.remove("show");
-  
+
 
   }
   find.addEventListener("click", function(){
