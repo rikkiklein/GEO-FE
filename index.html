@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GEOLOCATION API</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="apikey.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVoX-CRxIRs3kjMGF7fUxZZtR2MWj8RGY&libraries=places"></script>
+  </head>
+  <body>
+    <h1>SEARCH FOR A PLACE NEAR YOU!</h1>
+    <div class="" id="capture">
+      <input type="text" name="name" value="" id="input">
+      <button type="button" name="button" id="find">FIND NEAR ME!</button>
+    </div>
+    <div class="container">
+      <div class="" id="map"></div>
+    </div>
+    <div class="flex">
+      <div class="left">
+      </div>
+      <div class="right">
+        <div id="results">
+          <div id="cardContainer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br><hr><br>
+    <h2>View All Your Favorites!</h2>
+    <button type="button" name="button" id="all">SEE ALL</button>
+    <section class="container">
+        <div class="" id="see-all">
+          <div id="allC">
+          </div>
+      </div>
+        <div id="delete-sect">
+          <br><hr><br>
+          <h2>Delete a Favorite!</h2>
+          <input type="text" name="name" value="" id="delInput" placeholder = "what you want to delete">
+          <button type="button" name="button" id="delete">DELETE</button>
+        </div>
+        <div id="comment-sect">
+          <br><hr><br>
+          <h2>Add a Comment To A Favorite Place!</h2><br>
+          <input type="text" name="name" value="" id="upInput" placeholder = "Name of place you want to add a comment"><br>
+          <textarea type="text" name="name" value="" id="upArea" placeholder = "the comment to leave here"></textarea><br>
+          <button type="button" name="button" id="addComment">SUBMIT COMMENT</button><br>
+        </div>
+
+    </section>
+
+
+
+
+  </body>
+</html>
